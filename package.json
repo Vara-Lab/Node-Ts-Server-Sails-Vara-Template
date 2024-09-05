@@ -1,0 +1,27 @@
+{
+  "name": "node-ts-server-vara-template",
+  "version": "1.0.0",
+  "description": "Ts node server for Sails in VaraNetwork",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "lint": "ts-standard",
+    "start": "node build/index.js",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.2.0",
+    "@types/cors": "^2.8.17"
+  },
+  "dependencies": {
+    "@gear-js/api": "^0.38.2",
+    "@polkadot/api": "^11.0.1",
+    "cors": "^2.8.5",
+    "express": "4.19.2",
+    "sails-js": "^0.1.9"
+  }
+}
