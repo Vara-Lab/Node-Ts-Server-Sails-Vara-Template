@@ -12,8 +12,8 @@ This is a Node TS server template for interacting with the Vara Network using Sa
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/vara-nodejs-server-template.git
-    cd vara-nodejs-server-template
+    git clone https://github.com/Vara-Lab/Node-Ts-Server-Sails-Vara-Template.git
+    cd Node-Ts-Server-Sails-Vara-Template
     ```
 
 2. Install dependencies:
